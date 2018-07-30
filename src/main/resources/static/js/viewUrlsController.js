@@ -10,7 +10,7 @@
 	                	var data = response.data.data;
 	                	
 	                	 $( data ).each(function( i,record ) {
-	 	    	    		    var editColumn =  '<a onclick="angular.element(this).scope().openDashboard('+record.id+')"> <i class="fa fa-share-square-o" aria-hidden="true"></i></a>';
+	 	    	    		    var editColumn =  '<a onclick="angular.element(this).scope().openDashboard(\''+record.shortUrl+'\')"> <i class="fa fa-share-square-o" aria-hidden="true"></i></a>';
 			                   var callUrl =   '<button type="button" onclick="angular.element(this).scope().callUrl(\''+record.shortUrl+'\')" class="btn">Call Url</button> </a>';
 	                		 $('#example').DataTable().row.add([editColumn,record.id,record.url,record.shortUrl,record.expiryDate,callUrl]).draw();
 	                		  });
@@ -25,7 +25,7 @@
 		}
 		
 		$scope.openDashboard = function (urlId){
-			$window.open('localhost:8090/dashboard?id='+urlId, '_blank');
+			$window.open('localhost:8090/dashboard?url='+urlId, '_blank');
 		}
 		
 		$scope.callUrl = function(url){

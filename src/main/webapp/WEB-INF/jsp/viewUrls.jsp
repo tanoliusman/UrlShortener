@@ -7,7 +7,7 @@
 	<table id="example" class="display" style="width:100%;text-align:=left;">
         <thead>
             <tr>
-            	<th>&nbsp;</th>
+            	<th>Live Chart</th>
                 <th>Id</th>
                 <th>Url</th>
                 <th>Short Url</th>

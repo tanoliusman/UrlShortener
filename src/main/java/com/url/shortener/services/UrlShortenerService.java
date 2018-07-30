@@ -82,7 +82,7 @@ public class UrlShortenerService {
 				urlRepository.save(urlShortener);
 			}
     		HelloMessage hello = new HelloMessage();
-    		hello.setName(urlShortener.getId()+"");
+    		hello.setName(urlShortener.getShortUrl());
     		broadcastService.broadcast(hello);
     		return ResponseClass.getResponse("Added Url Access Successfull",StatusCodes.SUCCESS, true, null);
     	} catch(Exception ex) {

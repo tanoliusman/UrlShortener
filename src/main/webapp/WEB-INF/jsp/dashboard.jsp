@@ -13,10 +13,11 @@
         <!-- 3. Add the JavaScript with the Highchart options to initialize the chart -->
         <script type="text/javascript">
         var value = 0;
-        var id = "";
+        var url = "";
 
              jQuery(document).ready(function() { 
-            	 id = getUrlParameter("id");
+            	 url = getUrlParameter("url");
+            	 $("#shortUrl").html(url);
             	 connect();
 
         	Highcharts.setOptions({
@@ -116,7 +117,7 @@
 
         function showGreeting(message) {
         	var object = jQuery.parseJSON( message).name;
-        	if(object == id){
+        	if(object == url){
         		value = 1;
         	}
         }
@@ -149,7 +150,7 @@
          
     </head>
     <body>
-         
+         <h2><span id="shortUrl"></span></h2>
       <div id="container" style="height: 400px; min-width: 310px"></div> 
       
     </body>
