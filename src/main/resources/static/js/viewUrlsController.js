@@ -25,7 +25,7 @@
 		}
 		
 		$scope.openDashboard = function (urlId){
-			$window.open('localhost:8090/dashboard?url='+urlId, '_blank');
+			$window.open('http://localhost:8090/dashboard?url='+urlId, '_blank');
 		}
 		
 		$scope.callUrl = function(url){

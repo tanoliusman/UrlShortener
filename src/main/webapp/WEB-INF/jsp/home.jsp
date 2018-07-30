@@ -35,8 +35,8 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
         <li><a href="#callUrl"><i class="fa fa-shield"></i> Url Call</a></li>
-        <li><a href="#viewUrls"><i class="fa fa-binoculars"></i> View Urls</a></li>
-        <li><a href="#graph"><i class="fa fa-bar-chart"></i> Graph</a></li>
+        <li><a href="#viewUrls"><i class="fa fa-table"></i> View Urls</a></li>
+        <li><a href="#graph"><i class="fa fa-align-left"></i> Graph</a></li>
       </ul>
     </div>
   </nav>
