@@ -1,6 +1,6 @@
 # Todo-App
 
-This app is used to add todo list with spring boot, bootstrap and h2 database.
+This app is used to Shortened the url and show its dashboard and live dashboard for perticular URL. This project is build up on spring boot, bootstrap, angularJs and Mysql database.
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ Maven
 ### Installing
 
 ```
-Clone Todo-App
+Clone UrlShortener
 run "mvn clean install" on downloaded directory
 run "java -jar target/*.jar"
 Done
@@ -26,7 +26,7 @@ Done
 
 ## Running the tests
 
-Open any browser and goto localhost:8090/home and it will open a page for you in which you can add todo tasks.
+Open any browser and goto localhost:8090/home and it will open a page for you in which you can add url.
 
 ## Deployment
 
