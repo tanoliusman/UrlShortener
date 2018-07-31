@@ -1,4 +1,4 @@
-# Todo-App
+# Url Shortener App
 
 This app is used to Shortened the url and show its dashboard and live dashboard for perticular URL. This project is build up on spring boot, bootstrap, angularJs and Mysql database.
 
